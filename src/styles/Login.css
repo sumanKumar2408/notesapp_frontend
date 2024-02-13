@@ -1,0 +1,64 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container{
+    width: 40rem;
+    /* background-color: #f7f2f2; */
+    background-color: #FFF;
+    padding: 3rem;
+    /* box-shadow: .5rem .5rem .5rem .5rem rgba(0,0,0,0.2); */
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+    /* border-radius: 10px; */
+    border-radius: .6rem;
+}
+
+form{
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: .8rem;
+}
+
+.form-group input{
+    /* background-color: #f7f2f2; */
+    background-color: #FFFAFA;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: .6rem;
+    border: 0px;
+    border-bottom: .2rem solid black;
+}
+p{
+    display: inline;
+    margin-right: .6rem;
+    font-size: 1.5rem;
+}
+a{
+    font-size: 1.5rem;
+    color: blue;
+}
+input[type="submit"]{
+    border: .1rem solid black;
+    margin-top: 1rem;
+    transition:all 0.3s linear;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    /* color: #f7f7f7; */
+    color: #FFF;
+}
+a:hover{
+    cursor:pointer; 
+}
+input[type="submit"]:hover{
+    cursor:pointer; 
+}
+
+@media only screen and (max-width: 600px){
+    .login-container{
+        max-width: 35rem;
+    }
+}

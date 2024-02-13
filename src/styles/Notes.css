@@ -1,0 +1,84 @@
+.notes{
+    width: 36rem;
+    min-height: rem;
+    /* background-color: #f7f2f2; */
+    background-color: #FFF;
+    padding: 1rem;
+    /* box-shadow: .5rem .5rem .5rem .5rem rgba(0,0,0,0.2); */
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+    /* border-radius: 10px; */
+    border-radius: .6rem;
+    position: relative;
+    margin: 1rem;
+    flex-basis: 31%;
+}
+.title{
+    text-align:center;
+}
+.title h2{
+    color: black;
+    font-size: 2rem;
+    margin-bottom: .8rem;
+    word-wrap: break-word;
+} 
+.desc{
+    text-align:left;
+    margin-bottom: .8rem;
+}
+
+.desc p{
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+.date{
+    margin-top: 2rem;
+}
+.date .created, .date .modified{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.date .created{
+    margin-bottom: 3rem;
+}
+.date .created p, .date .modified p{
+    font-size: 1.5rem;
+}
+
+._icons{
+    width: 100%;
+    position: absolute; 
+    bottom: 1%;
+}
+._icons .icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+}
+._icons .icons i{
+    margin-right: 1rem;
+    font-size: 2.8rem;
+    transition: all .3s linear;
+}
+.icons i:hover{
+    cursor: pointer;
+    color: red;
+}
+
+@media only screen and (max-width: 900px){
+    .notes{
+        flex-basis: 48%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .notes{
+        flex-basis: 95%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .notes{
+        flex-basis: 90%;
+    }
+}
+

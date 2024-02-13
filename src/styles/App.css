@@ -1,0 +1,13 @@
+.app {
+  padding: 0rem 0rem;
+  height: 100vh;
+}
+.new-notes-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.notes-items-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,41 @@
+.navbar{
+    width: 100%;
+    /* background-color: #f7f2f2; */
+    background-color: #f1c40f;
+    padding: 1.5rem .5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    font-size: 2.5rem;
+    color: #282936;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    margin-left: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+ul li NavLink{
+    text-decoration: none;
+}
+ul li:hover{
+    cursor: pointer;
+}
+
+
+@media only screen and(max-width: 600px){
+    h2{
+        font-size: .7rem;
+    }
+    ul li{
+        font-size: .5rem;
+    }
+}
